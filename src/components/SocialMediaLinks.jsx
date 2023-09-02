@@ -2,7 +2,7 @@ import { BsLinkedin, BsTwitter, BsInstagram, BsGithub } from "react-icons/bs";
 
 const SocialMediaLinks = () => {
   return (
-    <div className="flex items-cente gap-5  md:gap-8 md:-ml-600 -ml-[220px] mt-5">
+    <div className="flex items-cente gap-5  md:gap-8 md:-ml-600 -ml-[240px] mt-5">
       <a
         href="https://github.com/tomiwakukoyi"
         target="_blank"
