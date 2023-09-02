@@ -31,12 +31,14 @@ const NavBar = () => {
     >
       <nav className="flex items-center justify-between mx-4  md:mx-20">
         {/* Logo */}
-        <span
-          style={{ fontFamily: "Caveat, cursive" }}
-          className="text-25 mt-3"
-        >
-          Tomiwa Kukoyi
-        </span>
+        <Link to="/">
+          <span
+            style={{ fontFamily: "Caveat, cursive" }}
+            className="text-25 mt-3 cursor-pointer"
+          >
+            Tomiwa Kukoyi
+          </span>
+        </Link>
 
         {/* Nav Items */}
         <div className="md:flex  md:ml-0 mt-3">
